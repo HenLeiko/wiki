@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffff;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 1.8em;
+
+}
+
+p {
+    margin: 0.4em 0 0.5em 0;
+}
+
+/* container */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header__inner {
+    border: 1px solid #c8ccd1;
+    padding-right: 28px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header left side */
+
+.header__slogan {
+    padding: 32px 0 32px 24px;
+    background-image: linear-gradient(to right,#f8f9fa 0%,#f8f9fa 70%,rgba(248,249,250,0)100%);;
+}
+
+.header__info {
+    margin: auto 0;
+}
+
+/* header right side */
+
+.header__stats {
+    margin: 7px 0 8px;
+}
+
+.portals-link {
+    padding: 6px 0 6px 12px;
+}
+
+.q-link {
+    padding: 6px 14px 6px 12px;
+}
+
+.create-link {
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 6px 12px;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    justify-content: flex-end;
+
+}
+
+/* main blocks */
+
+.main-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-fowr, .block-new {
+    padding: 24px;
+    border: 1px solid #c8ccd1;
+}
+
+.block-fowr {
+    margin-right: 25px;
+    max-width: 50%;
+}
+
+.block__subtitle {
+    color: #72777d;
+    line-height: 1.25;
+    
+}
+
+.right-img {
+    float: right;
+}
