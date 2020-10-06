@@ -37,6 +37,7 @@ p {
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 /* header left side */
@@ -95,6 +96,11 @@ p {
     max-width: 50%;
 }
 
+.block-new {
+    align-self: stretch;
+    height: 100%;
+}
+
 .block__subtitle {
     color: #72777d;
     line-height: 1.25;
@@ -103,4 +109,32 @@ p {
 
 .right-img {
     float: right;
+}
+
+/* block menu */
+
+.block-menu {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-menu__buttons {
+    display: flex;
+    list-style: none;
+}
+
+.menu-dots {
+    height: 20px;
+    width: 20px;
+}
+
+.read-button, .all-links {
+    padding: 6px 12px;
+}
+
+.read-button {
+    font-weight: bold;
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
 }
